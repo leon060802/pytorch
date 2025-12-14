@@ -410,6 +410,15 @@ MACOSX_DEPLOYMENT_TARGET=11.0 CMAKE_ONLY=1 python setup.py build
 ccmake build  # or cmake-gui build
 ```
 
+## Example Usage
+
+After installing PyTorch, you can verify the installation using:
+
+```python
+import torch
+print(torch.__version__)
+```
+
 ### Docker Image
 
 #### Using pre-built images
@@ -547,15 +556,6 @@ Three pointers to get you started:
 - [PyTorch Twitter](https://twitter.com/PyTorch)
 - [PyTorch Blog](https://pytorch.org/blog/)
 - [PyTorch YouTube](https://www.youtube.com/channel/UCWXI5YeOsh03QvJ59PMaXFw)
-
-## Example Usage
-
-After installing PyTorch, you can verify the installation using:
-
-```python
-import torch
-print(torch.__version__)
-```
 
 ## Communication
 
